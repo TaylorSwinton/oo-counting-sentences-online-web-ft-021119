@@ -16,8 +16,8 @@ class String
 
   def count_sentences
     #count = 0
-    ourSentences = self.split
-    ourSentences.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
+    #ourSentences = self.split
+    #ourSentences.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
 =begin
     ourSentences.each do |sentence|
       if sentence.empty? == false
